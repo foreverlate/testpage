@@ -33,7 +33,7 @@
 		</div>
 	</body>
 	<script>
-		$.ajax({ type:'GET', url: 'https://api.allorigins.win/raw?url='+ encodeURIComponent('https://github.com/foreverlate/testpage/file-list/main'), success: function(html){ 
+		$.ajax({ type:'GET', url: "https://github.com/foreverlate/testpage/file-list/main', success: function(html){ 
 				m = null;
 				console.log(html);
 				regex = /<div role="rowheader".*?>.*?<a.*?href="\/foreverlate\/testpage\/commit\/(.*?)">(\d{4}): (.*?)<\/a>.*?<time-ago.*?>(.*?)<\/time-ago>/gmsi
